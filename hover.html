@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>hover练习</title>
+    <style>
+        body{
+            text-align: center;
+        }
+        ul,li,a{
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+            font:18px "Adobe Devanagari"
+        }
+        .tab-ct{
+            margin-left: -25%;
+        }
+        .tab-ct>li{
+            display: inline-block;
+            padding:5px 10px;
+            border-radius: 3px;
+            list-style: none;
+        }
+        .tab-ct>li:hover{
+            box-shadow: 0 5px 8px #aaa;
+        }
+        .tab-ct a{
+            color: white;
+        }
+        .tab-ct .item1{
+            background-color: #009688;
+        }
+        .tab-ct .color{
+            color: #000;
+        }
+        .tab-ct .item2{
+            background-color: #ffeb3b;
+        }
+        .tab-ct .item3{
+            background-color: #ff9800;
+        }
+        .tab-ct .item4{
+            background-color: red;
+        }
+        .tab-ct .item5{
+            background-color: green;
+        }
+
+    </style>
+</head>
+<body>
+<ul class="tab-ct">
+    <li class="item1"><a href="#">steal</a></li>
+    <li class="item2"><a class="color" href="#">yellow</a></li>
+    <li class="item3"><a class="color" href="#">orange</a></li>
+    <li class="item4"><a href="#">red</a></li>
+    <li class="item5"><a href="#">green</a></li>
+</ul>
+</body>
+</html>
